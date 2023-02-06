@@ -14,8 +14,14 @@ header, main, footer, section {
     justify-content: center;
     align-items: center;
 }
+.backline {
+    background: url("../img/blackyellowline.gif");
+    height: 10px;
+    width: 100%;
+}
 header {
     background: url("../img/background.jpg") no-repeat;
+    background-size: cover;
     padding: 25px 0;
 }
 .wrapper {
@@ -229,4 +235,14 @@ h1 {
     -webkit-border-radius: .7ex;
     border-color: #FFFF00;
     border-bottom: 1px solid #FFFF00;
+}
+main {
+    background-color: #000;
+    flex-direction: column;
+}
+.lazerAds .adsLeftColumn {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }

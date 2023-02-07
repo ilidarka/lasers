@@ -309,3 +309,161 @@ main {
 .rotated:nth-of-type(2n+1) {
     transform: rotate(-5deg);
 }
+.reversed {
+    flex-direction: row-reverse !important;
+}
+.color {
+    width: 94px;
+    height: 29px;
+}
+.availableColors {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px dotted yellow;
+    padding: 5px;
+}
+.availableColors span {
+    font-family: Furore;
+    font-size: 16px;
+}
+.colors {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.color-green {
+    background-color: green;
+}
+.color-red {
+    background-color: red;
+}
+.color-yellow {
+    background-color: yellow;
+}
+.even {
+    justify-content: center !important;
+}
+.gallery {
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 144px;
+    height: 100px;
+    border: 1px solid red;
+}
+.lazerback {
+    margin-top: 50px;
+}
+.lazerback .wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.lazerback span {
+    font-size: 18px;
+    color: #fff;
+}
+.lazerSigns {
+    margin-top: 50px;
+}
+.lazerSigns .wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.lazerSigns h2 {
+    background-color: yellow;
+    color: #000;
+}
+.lazerSigns .lazerSignsContent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.lazerSigns .signLeftColumn {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.lazerSigns .signLeftColumn img {
+    width: 50%;
+}
+.lazerSigns .signRightColumn {
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.lazerSigns .signRightColumn img {
+    width: 100%;
+}
+.lazerSigns .signLeftColumn button {
+    background-color: #FFFF00;
+    background-image: -webkit-linear-gradient(top, #ffd403, #f89d17);
+    border-color: #FFFF00;
+    border-bottom: 1px solid #FFFF00;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.lazerSigns span {
+    font-size: 14px;
+    color: #fff;
+}
+.lazerSigns .description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.animals {
+    margin-top: 50px;
+}
+.animals .wrapper {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.animals img {
+    width: 50%;
+}
+.people {
+    margin: 20px 0;
+}
+.people span {
+    color: #fff;
+    font-size: 16px;
+}
+footer {
+    background-color: #000;
+    padding: 50px 0;
+}
+footer .wrapper {
+    align-items: center;
+    justify-content: space-between;
+}
+footer .rights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+footer .siteLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: red;
+    width: 25%;
+}
+footer .siteLogo img {
+    width: 100%;
+}

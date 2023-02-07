@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +8,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/burherMenuStyle.css">
     <link rel="stylesheet" href="./assets/css/media.css">
+    <script src="./assets/script/burgerMenuScript.js" defer></script>
     <title>Наружная Лазерная реклама на домах, зданиях, небе!</title>
 </head>
 <body>
+    <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="#">Надписи</a></li>
+                <li><a href="#">Реклама</a></li>
+                <li><a href="#">Анимации</a></li>
+                <li><a href="#">Логотипы</a></li>
+                <li><a href="#">Вывески</a></li>
+            </ul>
+        </nav> 
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
     <header>
         <div class="wrapper">
             <div class="headerTop">

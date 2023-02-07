@@ -56,8 +56,11 @@ header .siteLogo {
     flex-direction: column;
     align-items: flex-start;
 }
-header .siteLogo, header nav {
-    width: 30%;
+header .siteLogo {
+    width: 25%;
+}
+header nav {
+    width: fit-content;
 }
 header .siteLogo span {
     font-family: Furore;
@@ -65,7 +68,7 @@ header .siteLogo span {
     color: red;
 }
 header .siteLogo img {
-    width: 75%;
+    width: 100%;
 }
 header nav {
     display: flex;
@@ -203,7 +206,7 @@ header .leftContainer, header .rightContainer {
     position: absolute;
     top: -80px;
     right: -40px;
-    width: 40%;
+    width: 130px;
 }
 .rightContainerInputFirst, .rightContainerInputSecond, .rightContainerInputThird {
     width: 100%;

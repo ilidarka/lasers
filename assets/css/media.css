@@ -104,4 +104,7 @@
     .mainHeaederTitle {
         text-align: center;
     }
+    .description span {
+        text-align: center;
+    }
 }

@@ -290,7 +290,7 @@ main {
     font-weight: 700;
 }
 .lazerSection iframe {
-    background: url("../img/videobackgroungimage.png") no-repeat;
+    background: url("../img/videobackgroungimage.svg") no-repeat;
     background-size: cover;
     padding: 20px;
     width: 100%;

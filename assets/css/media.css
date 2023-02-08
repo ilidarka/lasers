@@ -89,9 +89,6 @@
     .lazerback img {
         width: 50%;
     }
-    .lazerSection iframe {
-        height: 300px;
-    }
     .rightInnerMenu {
         width: 100%;
     }
@@ -106,5 +103,31 @@
     }
     .description span {
         text-align: center;
+    }
+    .lazerSection .adsRightColumn {
+        width: 60%;
+    }
+    .lazerSection .adsLeftColumn {
+        width: 100%;
+    }
+}
+@media (max-width: 550px) {
+    .videoContainer {
+        width: 430px;
+        height: 332px;
+    }
+    .videoContainer iframe {
+        width: 390px;
+        height: 290px;
+    }
+}
+@media (max-width: 480px) {
+    .videoContainer {
+        width: 330px;
+        height: 255px;
+    }
+    .videoContainer iframe {
+        width: 295px;
+        height: 215px;
     }
 }

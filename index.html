@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/burherMenuStyle.css">
     <link rel="stylesheet" href="./assets/css/media.css">
+    <link rel="stylesheet" href="./assets/css/popupStyle.css">
     <script src="./assets/script/burgerMenuScript.js" defer></script>
+    <script src="./assets/script/popupScript.js" defer></script>
     <title>Наружная Лазерная реклама на домах, зданиях, небе!</title>
 </head>
 <body>
@@ -45,7 +47,7 @@
                     <li><a href="#">Логотипы</a></li>
                     <li><a href="#">Вывески</a></li>
                 </nav>
-                <button class="headerButton">Оставить заявку</button>
+                <button class="headerButton popup-trigger">Оставить заявку</button>
             </div>
             <div class="headerMain">
                 <h1>Лазерный проектор для лазерной рекламы</h1>
@@ -102,7 +104,7 @@
                         </div>
                         <div class="description">
                             <span>С помощью программируемого лазера вы сможете создавать надписи и анимацию на домах с удалённого расстояния. Закажи консультацию нашего специалиста прямо сейчас!</span>
-                            <button>Бесплатная консультация</button>
+                            <button class="popup-trigger">Бесплатная консультация</button>
                         </div>
                     </div>
                     <div class="adsRightColumn">
@@ -130,7 +132,7 @@
                                 </div>
                             </div>
                             <span>С помощью программируемого лазера вы сможете создавать надписи и анимацию на домах с удалённого расстояния. Закажи консультацию нашего специалиста прямо сейчас!</span>
-                            <button>Заказать лазерный проектор</button>
+                            <button class="popup-trigger">Заказать лазерный проектор</button>
                         </div>
                     </div>
                 </div>
@@ -147,7 +149,7 @@
                         </div>
                         <div class="description">
                             <span>Создавайте рекламные акции, надписи на витринах магазинов, лазерные вывески для вашего бизнеса. Это создаст мощный рекланый эффект, привлечет внимание и новых клиентов.</span>
-                            <button>Заказать лазерный проектор</button>
+                            <button class="popup-trigger">Заказать лазерный проектор</button>
                         </div>
                     </div>
                     <div class="adsRightColumn">
@@ -175,7 +177,7 @@
                                 </div>
                             </div>
                             <span>С помощью программируемого лазера вы сможете создавать свои лазерные шоу на праздниках, свадьбах и выступлениях. Можно сочитать цвета, добиваяся различных оттенков лазера.</span>
-                            <button>Получить консультацию менеджера</button>
+                            <button class="popup-trigger">Получить консультацию менеджера</button>
                         </div>
                     </div>
                 </div>
@@ -208,7 +210,7 @@
                         <img src="./assets/img/lazerProgrammImage.png" alt="lazerProgrammImage">
                         <div class="description">
                             <span><span style="font-weight: 700;">Лазер X-LASER SHOW RGY</span> программируется очень просто. Программа идет в комплекте на флеш-карте. Для создания лазерной надписи нужно вставить картинку в программу и выбрать её на лазере.</span>
-                            <button>Заказать лазерный проектор</button>
+                            <button class="popup-trigger">Заказать лазерный проектор</button>
                         </div>
                     </div>
                     <div class="signRightColumn">
@@ -238,8 +240,48 @@
                 <span>Оборудование для лазерной рекламы в России</span>
                 <span style="color: red;">Лазерная реклама РФ. Все права защищены © 2011-2017</span>
             </div>
-            <button class="headerButton">Бесплатная консультация</button>
+            <button class="headerButton popup-trigger">Бесплатная консультация</button>
         </div>
     </footer>
+    <div class="popup">
+        <div class="popup__content">
+          <div class="popup__body">
+            <div class="popup__close" type="button"></div>
+            <div class="popup_info">
+              <div class="pop-up__top">
+                <h1>Быстрый заказ</h1>
+              </div>
+              <form action="">
+                <p>
+                  После отправления заявки Вам перезвонит менеджер, проведет
+                  консультацию и ответит на Ваши вопросы
+                </p>
+                <h2>Ваше имя</h2>
+                <input type="text" placeholder="Ваше имя" />
+                <h2>Телефон для связи</h2>
+                <input type="text" placeholder="Телефон для связи" />
+                <h2>Адрес отправки</h2>
+                <input type="text" placeholder="Адрес отправки" />
+              </form>
+              <div class="pop-up__bottom">
+                <button>Оставить заявку</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="successPopup">
+        <div class="successPopupContent">
+            <span>Заявка на консультацию получена!</span>
+            <span>Спасибо, что обратились к нам.</span>
+            <div class="closeButton">
+                <div class="closeLine"></div>
+                <div class="closeLine"></div>
+            </div>
+        </div>
+      </div>
+      <a href="#top" class="black-arrow">
+        <img src="./assets/img/arrow-style3-yellow-black.png" alt="" />
+      </a>
 </body>
 </html>

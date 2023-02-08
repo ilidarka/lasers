@@ -492,7 +492,7 @@ footer .siteLogo img {
 .successPopup {
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     width: 100%;

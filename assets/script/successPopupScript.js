@@ -14,7 +14,7 @@ leaveRequestButton.addEventListener("click", (elem) => {
     }
     else {
         errorMessage.classList.remove("showErrorMessage");
-
+        successPopup.classList.toggle("showSuccessPopup");
     }
 });
 

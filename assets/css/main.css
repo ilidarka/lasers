@@ -43,14 +43,6 @@ header .wrapper {
     flex-direction: column;
     align-items: center;
 }
-header .headerTop {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 30px 45px;
-}
 header .siteLogo {
     display: flex;
     flex-direction: column;
@@ -98,6 +90,22 @@ header nav a {
     font-size: 20px;
     font-family: 'Trebuchet MS', sans-serif;
     text-align: center;
+}
+header .mobileMenu {
+    display: none;
+}
+header .headerTopContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px 45px;
+}
+header .headerTop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 header .headerMain {
     margin-top: 20px;
@@ -557,4 +565,14 @@ footer .siteLogo img {
 }
 .showErrorMessage {
     display: block;
+}
+.item {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    transition: 0.5s linear;
+    z-index: 5;
 }

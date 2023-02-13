@@ -546,3 +546,15 @@ footer .siteLogo img {
 .successPopup .closeButton .closeLine:nth-child(2) {
     transform: rotate(135deg);
 }
+.showSuccessPopup {
+    display: flex;
+}
+.errorMessage {
+    display: none;
+    text-align: center;
+    color: red !important;
+    font-size: 20px !important;
+}
+.showErrorMessage {
+    display: block;
+}

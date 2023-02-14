@@ -192,4 +192,10 @@
     .backline {
         width: 99%;
     }
+    .successPopupContent {
+        width: 80%;
+    }
+    .successPopupContent span {
+        text-align: center;
+    }
 }

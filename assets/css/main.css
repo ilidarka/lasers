@@ -19,6 +19,7 @@ h1 {
     color: #fff;
     padding: 5px 0;
     font-size: 43px;
+    z-index: 2;
 }
 h2 {
     color: #fff;

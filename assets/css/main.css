@@ -578,3 +578,19 @@ footer .siteLogo img {
     transition: 0.5s linear;
     z-index: 5;
 }
+
+#main_area {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0px;
+    right: 55%;
+    z-index: 100 !important;
+  }
+  .transp {
+    filter: alpha(opacity=20);
+    opacity: 0.2;
+    left: -1000px;
+    position: absolute;
+  }
+  

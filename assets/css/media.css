@@ -17,8 +17,8 @@
     header nav {
         display: none;
     }
-    #block .item {
-        display: none !important;
+    #main_area {
+        display: none;
     }
     header .mobileMenu {
         width: 30%;

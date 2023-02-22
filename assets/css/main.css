@@ -248,6 +248,7 @@ header .leftContainer, header .rightContainer {
     height: 40px;
     font-size: 14px;
     font-weight: 600;
+    border-radius: .7ex;
     -webkit-border-radius: .7ex;
     border-color: #FFFF00;
     border-bottom: 1px solid #FFFF00;

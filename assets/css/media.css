@@ -64,6 +64,8 @@
     }
     .description {
         align-items: center !important;
+        width: 100% !important;
+        text-align: center;
     }
     .lazerSignsContent {
         flex-direction: column-reverse;
@@ -140,6 +142,10 @@
     }
     .description span {
         text-align: center;
+        width: 100% !important;
+    }
+    .description img {
+        width: 100% !important;
     }
     .lazerSection .adsRightColumn {
         width: 60%;
@@ -177,6 +183,9 @@
         left: -138px;
     }
     footer .siteLogo {
+        width: 100%;
+    }
+    footer .headerButton {
         width: 100%;
     }
 }

@@ -265,20 +265,19 @@ main {
     gap: 40px;
 }
 .lazerSection .adsLeftColumn {
-    width: 70%;
+    width: 100%;
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
+    gap: 100px;
+}
+.lazerSection .adsLeftColumn .description img {
+    width: 50%;
 }
 .lazerSection .adsLeftColumn span {
     color: #fff;
     font-size: 14px;
-}
-.lazerSection .adsRightColumn {
-    width: 30%;    
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    width: 50%;
 }
 .lazerSection .lazerAdsContent {
     width: 100%;
@@ -314,7 +313,7 @@ main {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
-    width: 80%;
+    width: 50%;
 }
 .rotated {
     margin-top: 150px;
@@ -399,24 +398,17 @@ main {
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 50px;
 }
 .lazerSigns .signLeftColumn {
-    width: 70%;
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 .lazerSigns .signLeftColumn img {
     width: 50%;
-}
-.lazerSigns .signRightColumn {
-    width: 30%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-.lazerSigns .signRightColumn img {
-    width: 100%;
 }
 .lazerSigns .signLeftColumn button {
     background-color: #FFFF00;
@@ -435,8 +427,9 @@ main {
 .lazerSigns .description {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    align-items: center;
+    gap: 35px;
+    text-align: center;
 }
 .animals {
     margin-top: 50px;
@@ -578,7 +571,6 @@ footer .siteLogo img {
     transition: 0.5s linear;
     z-index: 5;
 }
-
 #main_area {
     position: absolute;
     top: 0px;
@@ -593,4 +585,3 @@ footer .siteLogo img {
     left: -1000px;
     position: absolute;
   }
-  
